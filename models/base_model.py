@@ -3,8 +3,8 @@
 
 
 import uuid
+import models
 from datetime import datetime
-from models import storage
 
 
 class BaseModel:
@@ -29,14 +29,14 @@ class BaseModel:
                 else:
                     self.__dict__[key] = kwargs[key]
         else:
-            storage.new(self)
+            models.storage.new(self)
 
     def save(self):
         '''
         Updates the updated_at attribute with the current date and time.
         '''
         self.updated_at = datetime.utcnow()
-        storage.save()
+        models.storage.save()
 
     def to_dict(self):
         '''
