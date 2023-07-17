@@ -104,4 +104,4 @@ You can use `all <class_name>` or `<class_name>.all()` to show all instances cre
 ## Authors
 Desmond Asiedu Asamoah <walterobrien_123@yaho.com>
 
-Albert Nana Asare <>
+Nana Nyarko Asare <nananyarkoasare74@gmail.com>
