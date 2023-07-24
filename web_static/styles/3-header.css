@@ -1,0 +1,15 @@
+/* 
+==== Header Styles ====
+*/
+
+/* Header styles */
+header {
+    background-color: #FFFFFF;
+    background-image: url('../images/airbnb_logo.png');
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
