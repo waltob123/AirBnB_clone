@@ -27,7 +27,7 @@
     transform: translateY(-50%);
 }
 
-.locations, .amenities {
+.filters .locations, .filters .amenities {
     height: 100%;
     width: 25%;
     box-sizing: border-box;
